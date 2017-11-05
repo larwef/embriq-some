@@ -1,0 +1,15 @@
+
+{
+    "applicationVersion": "0.1",
+
+    "facebookAccessToken": "<your facebook access token>",
+    "facebookCompanyId": "<your company id>",
+
+    "twitterConsumerKey": "<your twitter consumer key>",
+    "twitterConsumerSecret": "<your twitter consumer key secret>",
+    "twitterAccessToken": "<your twiter access token>",
+    "twitterAccessTokenSecret": "<your twiter access token secret>",
+    "twitterUser": "<your twitter user>",
+
+    "pollIntervalSeconds": 2
+}
