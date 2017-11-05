@@ -1,4 +1,6 @@
 # Embriq Social Media Followers App
+Inspired by https://www.digi.no/artikler/slik-laget-helge-en-bilderamme-som-viser-antall-likes-pa-bedriftens-facebook-side/408210
+
 Simple app getting follower count from different social media apps running on a Raspberry Pi. Currently gets likes from Facebook and followers on Twitter.
 
 The Raspberry Pi is preloaded with a .sh script which is run aftter boot. This script will in turn run a python script downloading a .json configuration file and a .zip file containing the main application from an AWS S3 bucket. It will then unzip and start the main application. Multiple versions can be uploaded to the S3 bucket, and which version is run is determined by the configuration file.
